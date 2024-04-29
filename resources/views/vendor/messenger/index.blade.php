@@ -47,16 +47,16 @@
                                         aria-labelledby="v-pills-home-tab">
                                         <div id="chat_box">
                                             <div class="wsus__chat_area" style="position: relative;
-                                            height: 70vh;" >
+                                            height: 70vh; overflow-y: auto;" >
 
                                                 <div class="wsus__chat_area_header">
                                                     <h2 id="chat-inbox-title">Chat with Daniel Paul</h2>
                                                 </div>
-                                                <div class="wsus__chat_area_body" data-inbox="">
+                                                <div class="wsus__chat_area_body" data-inbox="" style="height: calc(100% - 100px); overflow-y: auto;">
 
                                                 </div>
                                                 <div class="wsus__chat_area_footer" style="
-                                                width: 100%;
+                                                width: 100%; position: absolute; left: 0;
                                                 bottom: 0;">
                                                     <form id="message-form">
                                                         @csrf
