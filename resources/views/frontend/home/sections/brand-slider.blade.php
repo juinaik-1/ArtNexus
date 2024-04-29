@@ -1,5 +1,6 @@
 <section id="wsus__brand_sleder" class="brand_slider_2">
     <div class="container">
+        <h4 class="explore-header">Medium of Art</h4>
         <div class="brand_border">
             <div class="row brand_slider">
                 @foreach ($brands as $brand)
@@ -9,7 +10,6 @@
                     </div>
                 </div>
                 @endforeach
-
             </div>
         </div>
     </div>

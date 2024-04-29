@@ -5,7 +5,7 @@
                 <div class="wsus__home_services_single home_service_single_2 border_left">
                     <i class="fal fa-truck"></i>
                     <h5>Free Worldwide Shipping</h5>
-                    <p>Free shipping coast for all country</p>
+                    <p>Free shipping for all countries</p>
                 </div>
             </div>
             <div class="col-xl-3 col-sm-6 col-lg-3 pe-lg-0">
@@ -19,7 +19,7 @@
                 <div class="wsus__home_services_single home_service_single_2">
                     <i class="far fa-exchange-alt"></i>
                     <h5>Money Back Guarantee</h5>
-                    <p>We return money within 30 days</p>
+                    <p>We return money within 1-2 business days</p>
                 </div>
             </div>
             <div class="col-xl-3 col-sm-6 col-lg-3">
