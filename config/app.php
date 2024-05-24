@@ -182,6 +182,9 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        // Other providers...
+        //BotMan\BotMan\BotManServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
@@ -212,4 +215,12 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+
+
+    // 'aliases' => [
+    //     // Other aliases...
+    //     'BotMan' => BotMan\BotMan\Facades\BotMan::class,
+    // ],
+
 ];
+

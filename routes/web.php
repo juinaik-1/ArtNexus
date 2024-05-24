@@ -23,6 +23,10 @@ use App\Http\Controllers\Frontend\WishlistController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+
+use App\Http\Controllers\BotManController;
+
+Route::match(['get', 'post'], '/botman', 'App\Http\Controllers\BotManController@handle');
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -158,4 +162,10 @@ Route::group(['middleware' =>['auth', 'verified'], 'prefix' => 'user', 'as' => '
 
     /** COD routes */
     Route::get('cod/payment', [PaymentController::class, 'payWithCod'])->name('cod.payment');
+
+
+
+
+
+    //Route::match(['get', 'post'], '/botman', 'App\Http\Controllers\BotManController@handle');
 });
