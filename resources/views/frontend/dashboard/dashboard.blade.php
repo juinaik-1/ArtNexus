@@ -24,14 +24,14 @@
                   </a>
                 </div>
                 <div class="col-xl-2 col-6 col-md-4">
-                  <a class="wsus__dashboard_item red" href="dsahboard_download.html">
+                  <a class="wsus__dashboard_item red" href="{{route('user.orders.index')}}">
                     <i class="fas fa-cart-plus"></i>
                     <p>Pending Orders</p>
                     <h4 style="color:#ffff">{{$pendingOrder}}</h4>
                   </a>
                 </div>
                 <div class="col-xl-2 col-6 col-md-4">
-                  <a class="wsus__dashboard_item green" href="dsahboard_review.html">
+                  <a class="wsus__dashboard_item green" href="{{route('user.orders.index')}}">
                     <i class="fas fa-cart-plus"></i>
                     <p>Complete Orders</p>
                     <h4 style="color:#ffff">{{$completeOrder}}</h4>
