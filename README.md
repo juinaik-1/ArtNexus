@@ -100,4 +100,4 @@ We welcome contributions to improve ArtNexus. Please follow these steps:
 
 8. **License**
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE).. See the LICENSE file for details.
